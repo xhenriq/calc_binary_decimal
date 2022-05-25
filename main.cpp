@@ -22,7 +22,7 @@ int main()
         //Vai receber e exibir na tela o valor digitado
         cin >> valor;
 
-        if (valor == 0)       //Se o usuario digitar 0 a calculadora ir· fechar
+        if (valor == 0)       //Se o usuario digitar 0 a calculadora ir√° fechar
         {
             executa = false;
             exit;
@@ -61,7 +61,7 @@ int main()
                     int dec = 0;
                     cout << "2 - Binario para Decimal" << endl;
                     cin >> binario;
-                    for (int i = 0; binario > 0; i++) //Vai receber o n˙mero total do bin·rio
+                    for (int i = 0; binario > 0; i++) //Vai receber o n√∫mero total do bin√°rio
                     {
                         dec = dec + pow(2, i) * (binario % 10);
                         binario = binario / 10;
@@ -72,7 +72,7 @@ int main()
                 }
                 else
                 {
-                    cout << "Opcao invalida, tente novamente!!! " << endl;
+                    cout << "Opcao invalida,por favor tente novamente! " << endl;
                 }
             }
         }
